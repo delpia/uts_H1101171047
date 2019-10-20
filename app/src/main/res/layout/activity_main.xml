@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#80b3ff">
+
+    <Button
+        android:id="@+id/button_kom1"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:text="@string/komponen_1"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:background="#4d94ff"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_kom2"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:text="@string/komponen_2"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_marginTop="110dp"
+        android:background="#4d94ff"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_kom3"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:text="@string/komponen_3"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_marginTop="220dp"
+        android:background="#4d94ff"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_kom4"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:text="@string/komponen_4"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_marginTop="330dp"
+        android:background="#4d94ff"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_kom5"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:text="@string/komponen_5"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_marginTop="440dp"
+        android:background="#4d94ff"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+</RelativeLayout>

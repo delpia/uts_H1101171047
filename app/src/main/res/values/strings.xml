@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">uts_tekber</string>
+    <string name="komponen_1">activity</string>
+    <string name="komponen_4">provider</string>
+    <string name="komponen_3">boardcasts recivers </string>
+    <string name="komponen_2">service</string>
+    <string name="komponen_5">intent </string>
+    <string name="isi_kom1">Sebuah Activity akan menampilkan antarmuka aplikasi di layar, sebagai contoh ketika kita membuka sebuah aplikasi maka akan muncul tampilan dari aplikasi tersebut.
+Activity diimplementasikan sebagai subclass dari class Activity</string>
+    <string name="link_kom1">http://android-beginner-lessons.blogspot.com/2015/10/android-mengenal-komponen-aplikasi.html</string>
+    <string name="contoh_kom1">contoh syntax </string>
+    <string name="contoh_1"> android:allowEmbedded=["true" | "false"]
+          android:allowTaskReparenting=["true" | "false"]
+          android:alwaysRetainTaskState=["true" | "false"]
+          android:autoRemoveFromRecents=["true" | "false"]
+          android:banner="drawable resource"
+          android:clearTaskOnLaunch=["true" | "false"]
+          android:colorMode=[ "hdr" | "wideColorGamut"]
+          android:configChanges=["mcc", "mnc", "locale",
+                                 "touchscreen", "keyboard", "keyboardHidden",
+                                 "navigation", "screenLayout", "fontScale",
+                                 "uiMode", "orientation", "density",
+                                 "screenSize", "smallestScreenSize"]
+          android:directBootAware=["true" | "false"]
+          android:documentLaunchMode=["intoExisting" | "always" |
+                                  "none" | "never"]
+          android:enabled=["true" | "false"]
+          android:excludeFromRecents=["true" | "false"]
+          android:exported=["true" | "false"]
+          android:finishOnTaskLaunch=["true" | "false"]
+          android:hardwareAccelerated=["true" | "false"]
+          android:icon="drawable resource"
+          android:immersive=["true" | "false"]
+          android:label="string resource"
+          android:launchMode=["standard" | "singleTop" |
+                              "singleTask" | "singleInstance"]
+          android:lockTaskMode=["normal" | "never" |
+                              "if_whitelisted" | "always"]
+          android:maxRecents="integer"
+          android:maxAspectRatio="float"
+          android:multiprocess=["true" | "false"]
+          android:name="string"
+          android:noHistory=["true" | "false"]
+          android:parentActivityName="string"
+          android:persistableMode=["persistRootOnly" |
+                                   "persistAcrossReboots" | "persistNever"]
+          android:permission="string"
+          android:process="string"
+          android:relinquishTaskIdentity=["true" | "false"]
+          android:resizeableActivity=["true" | "false"]
+          android:screenOrientation=["unspecified" | "behind" |
+                                     "landscape" | "portrait" |
+                                     "reverseLandscape" | "reversePortrait" |
+                                     "sensorLandscape" | "sensorPortrait" |
+                                     "userLandscape" | "userPortrait" |
+                                     "sensor" | "fullSensor" | "nosensor" |
+                                     "user" | "fullUser" | "locked"]
+          android:showForAllUsers=["true" | "false"]
+          android:stateNotNeeded=["true" | "false"]
+          android:supportsPictureInPicture=["true" | "false"]
+          android:taskAffinity="string"
+          android:theme="resource or theme"
+          android:uiOptions=["none" | "splitActionBarWhenNarrow"]
+          android:windowSoftInputMode=["stateUnspecified",
+                                       "stateUnchanged", "stateHidden",
+                                       "stateAlwaysHidden", "stateVisible",
+                                       "stateAlwaysVisible", "adjustUnspecified",
+                                       "adjustResize", "adjustPan"] >
+    . . .
+</string>
+    <string name="link_kom2">http://android-beginner-lessons.blogspot.com/2015/10/android-mengenal-komponen-aplikasi.html </string>
+    <string name="contoh_2"> contoh syntax </string>
+    <string name="isi_kom2"> Service adalah komponen yang berjalan di latar belakang. Sebagai contoh, Service bisa memainkan musik di latar belakang saat pengguna berada dalam aplikasi yang berbeda, atau mungkin mengambil data melalui jaringan tanpa menghalangi interaksi pengguna dengan aktivitas.Service diimplementasikan sebagai subclass dari class Service  </string>
+    <string name="contoh2"> android:description="string resource"
+        android:directBootAware=["true" | "false"]
+         android:enabled=["true" | "false"]
+         android:exported=["true" | "false"]
+         android:foregroundServiceType=["connectedDevice" | "dataSync" |
+                                        "location" | "mediaPlayback" | "mediaProjection" |
+                                        "phoneCall"]
+         android:icon="drawable resource"
+         android:isolatedProcess=["true" | "false"]
+         android:label="string resource"
+         android:name="string"
+         android:permission="string"
+         android:process="string" >
+    . . .
+ </string>
+    <string name="isi_kom3"> Broadcast Receiver berfungsi menerima pesan intent dari aplikasi lain atau dari sistem. Sebagai contoh, suatu aplikasi mengirim pesan berisi perintah tertentu untuk aplikasi lain bahwa beberapa data telah diunduh ke perangkat dan tersedia bagi mereka untuk menggunakan apklikasi tersebut, jadi Broadcast Receiver inilah yang akan menangani komunikasi ini dan akan melakukan tindakan yang tepat.Sebuah Broadcast Receiver diimplementasikan sebagai subclass dari class BroadcastReceiver dan setiap pesan akan dikirim dan diterima sebagai objek Intent </string>
+    <string name="link_kom3"> http://android-beginner-lessons.blogspot.com/2015/10/android-mengenal-komponen-aplikasi.html </string>
+    <string name="contoh_3"> contoh syntax </string>
+    <string name="contoh3"> android:directBootAware=["true" | "false"]
+          android:enabled=["true" | "false"]
+          android:exported=["true" | "false"]
+          android:icon="drawable resource"
+          android:label="string resource"
+          android:name="string"
+          android:permission="string"
+          android:process="string" >
+    . . .</string>
+    <string name="isi_kom4">ContentProvider adalah penyedia konten dari satu aplikasi ke aplikasi lain atas perintah tertentu. Perintah tersebut ditangani oleh sebuah method dari class ContentResolver. Data dapat disimpan dalam sistem file, database atau di tempat lainnya.ContentProvider diimplementasikan sebagai subclass dari class ContentProvider dan harus menerapkan satu set standar API yang memungkinkan aplikasi lain untuk melakukan transaksi. </string>
+    <string name="link_kom4">http://android-beginner-lessons.blogspot.com/2015/10/android-mengenal-komponen-aplikasi.html</string>
+    <string name="contoh4">contoh syntax</string>
+    <string name="contoh_4">android:directBootAware=["true" | "false"]
+          android:enabled=["true" | "false"]
+          android:exported=["true" | "false"]
+          android:icon="drawable resource"
+          android:label="string resource"
+          android:name="string"
+          android:permission="string"
+          android:process="string" >
+    . . .
+</string>
+    <string name="isi_kom5">Intent juga merupakan suatu objek yang terdapat dalam suatu activity dimana objek tersebut dapat komunikasi dengan activity yang lain, baik activity pada fungsi internal android misal seperti memanggil activity dalam satu package atau beda package yang masih berada dalam satu project. </string>
+    <string name="link_kom5">https://www.codepolitan.com/belajar-menggunakan-intent-sebuah-jembatan-interaksi-antar-komponen-599a5576271ef </string>
+    <string name="contoh5"> contoh syntax </string>
+    <string name="contoh_5"> android:icon="drawable resource"
+        android:label="string resource"
+        android:priority="integer" >
+    . . .
+ </string>
+</resources>
